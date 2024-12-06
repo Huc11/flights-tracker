@@ -1,0 +1,12 @@
+{
+  "name": "flights-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/app.js",
+  "scripts": {
+    "start": "node backend/app.js"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}

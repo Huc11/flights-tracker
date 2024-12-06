@@ -1,0 +1,121 @@
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-container {
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 30px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.flight-info-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.flight-info-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.flight-info-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.flight-info-details p {
+  margin: 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.flight-info-details strong {
+  color: #666;
+  margin-right: 8px;
+}
+h1 {
+  color: #0056b3;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555555;
+  font-size: 1.2rem;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.dashboard-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.dashboard-link {
+  padding: 12px 25px;
+  background-color: #0056b3;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.dashboard-link:hover {
+  background-color: #007bff;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-section {
+  margin: 10px 0;
+}
+
+.search-input {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #0056b3
+  ;
+  color: white;
+  border-radius: 4px;
+}
+
+.search-button:hover {
+  background-color: #007bff;
+}
+
+.search-result {
+  margin-top: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
